@@ -38,7 +38,7 @@ public class RadioButtonDemo extends CommonMethods {
 
 		}
 
-		driver.close();
+
 
 	}
 

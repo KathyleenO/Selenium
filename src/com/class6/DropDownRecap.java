@@ -17,10 +17,10 @@ public class DropDownRecap extends CommonMethods{
 		Select obj=new Select(dd);
 		List<WebElement> options=obj.getOptions();
 		//validate each option is clickable
-//		for (WebElement option: options) {
-//			option.click();
-//			Thread.sleep(1000);
-//		}
+		for (WebElement option: options) {
+			option.click();
+			Thread.sleep(1000);
+		}
 		
 		//validate user can select "Music"
 		obj.selectByVisibleText("music");
